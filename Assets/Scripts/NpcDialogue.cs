@@ -3,13 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+[System.Serializable]
+public class DialogueElement
+{
+    public string npcName;
+    public Sprite profile;
+    public string speechTxt;
+}
+
 public class NpcDialogue : MonoBehaviour
 {
    // public string[] DialogueNpc;
    // public int dialogueIndex;
    // public GameObject dialoguePanel;
     public Sprite profile;
-    public string[] speechTxt;
+    public List<DialogueElement> speechTxt;
     public string npcName;
     public LayerMask playerLayer;
     public float radius;

@@ -13,10 +13,10 @@ public class DialogueControl : MonoBehaviour
 
     [Header("Settings")]
     public float typingSpeed;
-    private string[] sentences;
+    private List<DialogueElement> sentences;
     private int index;
 
-    public void Speech(Sprite p, string[] txt, string npcName)
+    public void Speech(Sprite p, List<DialogueElement> txt, string npcName)
     {
         dialogueObj.SetActive(true);
         profile.sprite = p;
@@ -28,7 +28,9 @@ public class DialogueControl : MonoBehaviour
 
     IEnumerator TypeSentence()
     {
-        foreach (char letter in sentences[index].ToCharArray())
+        npcNameText.text = sentences[index].npcName;
+        profile.sprite = sentences[index].profile;
+        foreach (char letter in sentences[index].speechTxt.ToCharArray())
         {
             speechText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
@@ -37,10 +39,10 @@ public class DialogueControl : MonoBehaviour
 
     public void NextSentence()
     {
-        if(speechText.text == sentences[index])
+        if(speechText.text == sentences[index].speechTxt)
         {
             //ainda há textos
-            if(index < sentences.Length - 1)
+            if(index < sentences.Count - 1)
             {
                 index++;
                 speechText.text = "";
