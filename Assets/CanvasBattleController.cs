@@ -2,13 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CanvasBattleController : MonoBehaviour
 {
-    public HeartSystem heart;
-    public static CanvasBattleController cb;
+    public HeartSystem heartPlayer;
+    public HeartSystem heartInimigo;
+    //public static CanvasBattleController cb;
     public Slider barra;
     public Image spriteInimigo;
     public float incrementoDeBarraJogador;
@@ -22,13 +24,19 @@ public class CanvasBattleController : MonoBehaviour
     public int inimigoVida;
 
     private Vector3 originalPos;
+    private bool EstaBatalhando = false;
 
     public void iniciarBatalha(int vidaInimigo, float barraVelocidade, Sprite inimigo, int vidaPlayer)
     {
+        if (!EstaBatalhando)
+        {
         spriteInimigo.sprite = inimigo;
         _barraVelocidade = barraVelocidade;
         inimigoVida = vidaInimigo;
         playerVida = vidaPlayer;
+        barra.value = 0.5f;
+        EstaBatalhando = true;
+        }
     }
 
     public void refreshScreen()
@@ -55,45 +63,71 @@ public class CanvasBattleController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        barra.value = 0.5f;
         originalPos = barra.transform.position;
+
+        if(GetComponent<Player> ().enabled == false)
+        {
+            EstaBatalhando = true;
+        } else 
+        {
+            EstaBatalhando = false;
+        }
+
+        if(TryGetComponent(out Player player) == true)
+        {
+            player.DesabilitarMovimento();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!EstaBatalhando)
+            return;
+
         barra.value = barra.value - (incrementoDeBarraInimigo * _barraVelocidade * Time.deltaTime);
+
         if(Input.GetKeyDown(KeyCode.Space))
         {
             barra.value = barra.value + incrementoDeBarraJogador;
         }
 
-        if(barra.value <= 0)
+        if(barra.value <= 0f)
         {
             // diminuir vida do player
             playerVida --;
+            heartPlayer.vida = playerVida;
             // reinicar barra para o meio
-            barra.transform.position = originalPos;
+            barra.value = 0.5f;
             // reiniciar contagem de tempo
             
         }
 
-        if(barra.value >= 1)
+        if(barra.value >= 1f)
         {
             // diminuir vida do inimigo
             inimigoVida --;
+            heartInimigo.vida = inimigoVida;
             // reiniciar barra para o meio
-            transform.position = originalPos;
+            barra.value = 0.5f;
             // reiniciar contagem de tempo
+            Debug.Log("acertou");
         }
 
         if(playerVida <= 0)
         {
             // Gameover
+            EstaBatalhando = false;
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
         }
 
         if(inimigoVida <= 0)
         {
             // Fechar controlador de batalha
+            EstaBatalhando = false;
+            //Destroy(inimigo);
             // Destruit o inimigo no jogo
         }
 

@@ -9,7 +9,7 @@ public class BattleController : MonoBehaviour
     public HeartSystem heart;
     public Sprite sprite;
     public int vidaInimigo;
-    public int vidaPlayer;
+    
     public float barraVelocidade;
 
     
@@ -18,10 +18,15 @@ public class BattleController : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            //int vidaPlayer;
+            int vidaPlayer = 0;
             if(other.TryGetComponent(out HeartSystem vida))
             {
                 vidaPlayer = vida.vida;
+            }
+            
+            if(other.TryGetComponent(out Player player))
+            {
+                player.DesabilitarMovimento();
             }
             controller.gameObject.SetActive(true);
             controller.iniciarBatalha(vidaInimigo, barraVelocidade, sprite, vidaPlayer);

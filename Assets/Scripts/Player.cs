@@ -1,6 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+//using System.Numerics;
 using UnityEngine;
+//using UnityEngine.Scripting.APIUpdating;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -12,6 +15,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
     public Animator anim;
 
+    private bool canMove = true;
+    private bool canJump = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +28,15 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (canMove)
+    {
         Move();
+    }
+
+        if (canJump)
+    {
         Jump();
+    }
     }
 
    void Move()
@@ -80,5 +93,10 @@ public class Player : MonoBehaviour
     }
    }
 
-   
+    internal void DesabilitarMovimento()
+    {
+        //throw new NotImplementedException();
+        canMove = false;
+        canJump = false;
+    }
 }
