@@ -65,7 +65,7 @@ public class HeartSystem : MonoBehaviour
         if(vida <= 0)
         {
             isDead = true;
-            player.anim.SetBool("IsDead", isDead);
+            //player.anim.SetBool("IsDead", isDead);
             GetComponent<Player>().enabled = false;
             Destroy(gameObject, 1.0f);
         }

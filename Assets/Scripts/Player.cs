@@ -99,4 +99,10 @@ public class Player : MonoBehaviour
         canMove = false;
         canJump = false;
     }
+
+    internal void HabilitarMovimento()
+    {
+        canMove = true;
+        canJump = true;
+    }
 }

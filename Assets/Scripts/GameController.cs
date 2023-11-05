@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public GameObject gameOver;
+    public GameObject victoryScreen;
     public static GameController instance;
     // Start is called before the first frame update
     void Start()
@@ -28,4 +29,24 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene(lvlName);
     }
+
+    public void showVictoryScreen()
+    {
+        victoryScreen.SetActive(true);
+    }
+
+    public void continueGame()
+    {
+        victoryScreen.SetActive(false);
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = 1;
+    }
 }
+

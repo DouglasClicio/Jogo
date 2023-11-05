@@ -27,6 +27,9 @@ public class BattleController : MonoBehaviour
             if(other.TryGetComponent(out Player player))
             {
                 player.DesabilitarMovimento();
+            } else 
+            {
+                player.HabilitarMovimento();
             }
             controller.gameObject.SetActive(true);
             controller.iniciarBatalha(vidaInimigo, barraVelocidade, sprite, vidaPlayer);

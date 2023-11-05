@@ -2,23 +2,26 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CanvasBattleController : MonoBehaviour
 {
+    Player player;
     public HeartSystem heartPlayer;
     public HeartSystem heartInimigo;
-    //public static CanvasBattleController cb;
+    
     public Slider barra;
     public Image spriteInimigo;
+    public Sprite spriteEnemy;
     public float incrementoDeBarraJogador;
     private float incrementoDeBarraInimigo = 0.10f;
     private float _barraVelocidade;
 
     public Text timeText;
-    public float timeCount;
+    //public float timeCount;
     public bool timeOver = false;
     public int playerVida;
     public int inimigoVida;
@@ -39,12 +42,12 @@ public class CanvasBattleController : MonoBehaviour
         }
     }
 
-    public void refreshScreen()
+/**    public void refreshScreen()
     {
         timeText.text = timeCount.ToString("f0");
     }
-
-    void TimeCount()
+**/
+/**    void TimeCount()
     {
         timeOver = false;
 
@@ -59,7 +62,7 @@ public class CanvasBattleController : MonoBehaviour
                 timeOver = true;
             }
         }
-    }
+    }**/
     // Start is called before the first frame update
     void Start()
     {
@@ -127,11 +130,19 @@ public class CanvasBattleController : MonoBehaviour
         {
             // Fechar controlador de batalha
             EstaBatalhando = false;
-            //Destroy(inimigo);
+            GameController.instance.showVictoryScreen();
+            GameController.instance.PauseGame();
+            //player.HabilitarMovimento();
+            Destroy(gameObject);
             // Destruit o inimigo no jogo
         }
 
-        TimeCount();
+        if(EstaBatalhando == false)
+        {
+            player.HabilitarMovimento();
+        }
+
+        //TimeCount();
     }
 
     
