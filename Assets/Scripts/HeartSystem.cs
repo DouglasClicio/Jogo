@@ -5,28 +5,26 @@ using UnityEngine.UI;
 
 public class HeartSystem : MonoBehaviour
 {
-    Player player;
-    public bool isDead;
+    
     public int vida;
     public int vidaMaxima;
 
     public Image[] coracao;
     public Sprite cheio;
     public Sprite vazio;
-    public GameObject gameOver;
-    public static HeartSystem instance;
+    
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<Player>();
         
+
     }
 
     // Update is called once per frame
     void Update()
     {
         HealthLogic();
-        DeadState();
+        
     }
 
     void HealthLogic()
@@ -58,17 +56,8 @@ public class HeartSystem : MonoBehaviour
             }
         }
     }
-    
 
-    void DeadState()
-    {
-        if(vida <= 0)
-        {
-            isDead = true;
-            //player.anim.SetBool("IsDead", isDead);
-            GetComponent<Player>().enabled = false;
-            Destroy(gameObject, 1.0f);
-        }
-    }
+
+    
 
 }

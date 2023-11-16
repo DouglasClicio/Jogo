@@ -83,6 +83,11 @@ public class Player : MonoBehaviour
         GameController.instance.ShowGameOver();
         Destroy(gameObject);
     }
+
+    if(collision.gameObject.tag == "Finale")
+    {
+        GameController.instance.showEndGame();
+    }
    }
 
    void OnCollisionExit2D(Collision2D collision)

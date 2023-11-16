@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public GameObject gameOver;
     public GameObject victoryScreen;
+    public GameObject endGame;
     public static GameController instance;
     // Start is called before the first frame update
     void Start()
@@ -48,5 +49,11 @@ public class GameController : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+
+    public void showEndGame()
+    {
+        endGame.SetActive(true);
+    }
+
 }
 

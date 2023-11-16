@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BattleController : MonoBehaviour
 {
     public CanvasBattleController controller;
-    public HeartSystem heart;
+    
     public Sprite sprite;
     public int vidaInimigo;
     
@@ -31,16 +31,16 @@ public class BattleController : MonoBehaviour
             {
                 player.HabilitarMovimento();
             }
-            controller.gameObject.SetActive(true);
-            controller.iniciarBatalha(vidaInimigo, barraVelocidade, sprite, vidaPlayer);
+            controller.iniciarBatalha(this, player, vidaInimigo, barraVelocidade, sprite, vidaPlayer);
         }
     }
 
-    
 
-    
+
+
 
     // Start is called before the first frame update
+    /**
     void Start()
     {
         
@@ -50,5 +50,5 @@ public class BattleController : MonoBehaviour
     void Update()
     {
         
-    }
+    }**/
 }

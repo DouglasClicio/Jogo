@@ -3,19 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using TMPro;
+using Unity.VisualScripting;
+using UnityEditor.U2D;
 using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CanvasBattleController : MonoBehaviour
 {
-    Player player;
+
     public HeartSystem heartPlayer;
     public HeartSystem heartInimigo;
-    
+
     public Slider barra;
     public Image spriteInimigo;
-    public Sprite spriteEnemy;
+    
     public float incrementoDeBarraJogador;
     private float incrementoDeBarraInimigo = 0.10f;
     private float _barraVelocidade;
@@ -23,22 +25,29 @@ public class CanvasBattleController : MonoBehaviour
     public Text timeText;
     //public float timeCount;
     public bool timeOver = false;
-    public int playerVida;
-    public int inimigoVida;
+    private int playerVida;
+    private int inimigoVida;
 
     private Vector3 originalPos;
     private bool EstaBatalhando = false;
+    private BattleController ultimoIniciador;
+    private Player player;
 
-    public void iniciarBatalha(int vidaInimigo, float barraVelocidade, Sprite inimigo, int vidaPlayer)
+    public void iniciarBatalha(BattleController iniciador, Player playerRef, int vidaInimigo, float barraVelocidade, Sprite inimigo, int vidaPlayer)
     {
         if (!EstaBatalhando)
         {
-        spriteInimigo.sprite = inimigo;
-        _barraVelocidade = barraVelocidade;
-        inimigoVida = vidaInimigo;
-        playerVida = vidaPlayer;
-        barra.value = 0.5f;
-        EstaBatalhando = true;
+        ultimoIniciador = iniciador;
+            player = playerRef;
+            player.DesabilitarMovimento();
+            spriteInimigo.sprite = inimigo;
+            _barraVelocidade = barraVelocidade;
+            inimigoVida = vidaInimigo;
+            playerVida = vidaPlayer;
+            barra.value = 0.5f;
+            EstaBatalhando = true;
+            //timeCount = 15;
+            this.gameObject.SetActive(true);
         }
     }
 
@@ -67,27 +76,16 @@ public class CanvasBattleController : MonoBehaviour
     void Start()
     {
         barra.value = 0.5f;
-        originalPos = barra.transform.position;
-
-        if(GetComponent<Player> ().enabled == false)
-        {
-            EstaBatalhando = true;
-        } else 
-        {
-            EstaBatalhando = false;
-        }
-
-        if(TryGetComponent(out Player player) == true)
-        {
-            player.DesabilitarMovimento();
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
         if (!EstaBatalhando)
+        {
+            gameObject.SetActive(false);
             return;
+        }
 
         barra.value = barra.value - (incrementoDeBarraInimigo * _barraVelocidade * Time.deltaTime);
 
@@ -103,8 +101,8 @@ public class CanvasBattleController : MonoBehaviour
             heartPlayer.vida = playerVida;
             // reinicar barra para o meio
             barra.value = 0.5f;
-            // reiniciar contagem de tempo
             
+
         }
 
         if(barra.value >= 1f)
@@ -114,8 +112,7 @@ public class CanvasBattleController : MonoBehaviour
             heartInimigo.vida = inimigoVida;
             // reiniciar barra para o meio
             barra.value = 0.5f;
-            // reiniciar contagem de tempo
-            Debug.Log("acertou");
+        
         }
 
         if(playerVida <= 0)
@@ -123,7 +120,7 @@ public class CanvasBattleController : MonoBehaviour
             // Gameover
             EstaBatalhando = false;
             GameController.instance.ShowGameOver();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
 
         if(inimigoVida <= 0)
@@ -132,15 +129,12 @@ public class CanvasBattleController : MonoBehaviour
             EstaBatalhando = false;
             GameController.instance.showVictoryScreen();
             GameController.instance.PauseGame();
-            //player.HabilitarMovimento();
-            Destroy(gameObject);
+            player.HabilitarMovimento();
             // Destruit o inimigo no jogo
+            ultimoIniciador.gameObject.SetActive(false);
         }
 
-        if(EstaBatalhando == false)
-        {
-            player.HabilitarMovimento();
-        }
+
 
         //TimeCount();
     }
