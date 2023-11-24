@@ -475,6 +475,90 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &107574848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 107574849}
+  - component: {fileID: 107574850}
+  m_Layer: 0
+  m_Name: seta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &107574849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107574848}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 31.81, y: -4.26, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &107574850
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107574848}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f17a22c18a7b9354885ff0a4c8b60203, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &137275797
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +639,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137275797}
   m_CullTransparentMesh: 1
+--- !u!1 &149407861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 149407862}
+  - component: {fileID: 149407863}
+  m_Layer: 0
+  m_Name: seta (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149407862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149407861}
+  m_LocalRotation: {x: -0, y: -0, z: 0.702298, w: 0.71188307}
+  m_LocalPosition: {x: 52.36, y: 0.79, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.223}
+--- !u!212 &149407863
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149407861}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f17a22c18a7b9354885ff0a4c8b60203, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &182625924
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,6 +1062,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &365730908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 365730909}
+  - component: {fileID: 365730910}
+  m_Layer: 0
+  m_Name: seta (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &365730909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365730908}
+  m_LocalRotation: {x: -0, y: -0, z: -0.71012014, w: 0.7040805}
+  m_LocalPosition: {x: 31.1, y: -6.43, z: 0.15273036}
+  m_LocalScale: {x: 0.6826659, y: 0.85909504, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.489}
+--- !u!212 &365730910
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365730908}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f17a22c18a7b9354885ff0a4c8b60203, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &376604545
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,8 +1247,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376604545}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -6.99, y: -18.41, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.3711, y: -18.067, z: 0}
+  m_LocalScale: {x: 2.0569985, y: 1.781388, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1399,7 +1651,7 @@ GameObject:
   - component: {fileID: 467461812}
   - component: {fileID: 467461811}
   m_Layer: 0
-  m_Name: Dica
+  m_Name: Dicas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1426,6 +1678,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 419638537}
+  - {fileID: 107574849}
+  - {fileID: 149407862}
+  - {fileID: 1755400635}
+  - {fileID: 2016332194}
+  - {fileID: 729462664}
+  - {fileID: 1474097819}
+  - {fileID: 666083094}
+  - {fileID: 365730909}
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1505,7 +1765,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fim da vers\xE3o beta!"
+  m_Text: "Fim da vers\xE3o prot\xF3tipo!"
 --- !u!222 &469779913
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2144,6 +2404,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &666083093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666083094}
+  - component: {fileID: 666083095}
+  m_Layer: 0
+  m_Name: seta (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666083094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666083093}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 67.48, y: -4.99, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &666083095
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666083093}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f17a22c18a7b9354885ff0a4c8b60203, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &677252981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6833368088000494097, guid: 1b8984bae39215b45a5fe0d10888e35d, type: 3}
@@ -2273,42 +2617,54 @@ MonoBehaviour:
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Ol\xE1, eu me chamo Lux. "
+    audioClip: {fileID: 8300000, guid: b73e0d0371c30de4088f3863720ab493, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Como voc\xEA se chama?"
+    audioClip: {fileID: 8300000, guid: be1f1a5a1c31b7d4dbc2fa7e0bc83f61, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Meu nome \xE9 Blue."
+    audioClip: {fileID: 8300000, guid: 719c480af335cb64ba925d1187a44839, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Prazer, Blue! Voc\xEA n\xE3o parece ser desse lugar, correto?"
+    audioClip: {fileID: 8300000, guid: de4d6e2eb7b8d3d4b9fed57d4cad1b9e, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Eu n\xE3o sei onde estou. Que lugar \xE9 este?"
+    audioClip: {fileID: 8300000, guid: 47222a4e20c9aec4e9915fd3d1898d34, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Voc\xEA estar no subterr\xE2neo, um lugar infestado de energia maligna
       e monstros terr\xEDveis."
+    audioClip: {fileID: 8300000, guid: a5050d0a7cf73cf4d8db0011e7607a41, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: Energia maligna? Monstros? Como assim?
+    audioClip: {fileID: 8300000, guid: 4329d034f988c2c4faedf71f53bd97fb, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "O que eu quero dizer \xE9 que voc\xEA n\xE3o deveria estar em um
       lugar como este. \xC9 muito perigoso ficar aqui."
+    audioClip: {fileID: 8300000, guid: 7e2f7eb9c5665f249b91a2133c59e508, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Este lugar me d\xE1 arrepios. Como vou sair daqui?"
+    audioClip: {fileID: 8300000, guid: 3d09eed9ebf4b3d44b1887f4a886925d, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "N\xE3o se preocupe, eu te ajudo a sair daqui. Como sou uma fada da
       luz, \xE9 o meu dever ajudar aqueles que se sentem perdidos em seus caminhos."
+    audioClip: {fileID: 8300000, guid: 6e2c721df15192047be364bd50ad84df, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "S\xE9rio? Voc\xEA pode me ajudar? Muito obrigado, Lux."
+    audioClip: {fileID: 8300000, guid: 572f6c15459df8441a0807d64f830955, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "O prazer \xE9 todo meu, Blue. De agora em diante, eu serei sua guia."
+    audioClip: {fileID: 8300000, guid: a784df94e83a4744699cff29c3623375, type: 3}
   npcName: Lux
   playerLayer:
     serializedVersion: 2
@@ -2402,6 +2758,90 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &729462663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 729462664}
+  - component: {fileID: 729462665}
+  m_Layer: 0
+  m_Name: seta (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729462664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729462663}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 39.26, y: -24.62, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &729462665
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729462663}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f17a22c18a7b9354885ff0a4c8b60203, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &739310441
 GameObject:
   m_ObjectHideFlags: 0
@@ -31866,6 +32306,7 @@ Transform:
   - {fileID: 1667053562}
   - {fileID: 1585162900}
   - {fileID: 1299903293}
+  - {fileID: 1899648488}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -32074,7 +32515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058287405}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -0.42, z: -82.96053}
+  m_LocalPosition: {x: -13.07, y: -33.32, z: -82.96053}
   m_LocalScale: {x: 1.470884, y: 1.6850297, z: 1.1326}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32097,53 +32538,45 @@ MonoBehaviour:
   speechTxt:
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Tenha cuidado, h\xE1 um inimigo a sua frente! "
+    speechTxt: "Tenha cuidado, h\xE1 um inimigo a sua frente! Voc\xEA precisar\xE1
+      derrot\xE1-lo para continuar seguindo em frente."
+    audioClip: {fileID: 8300000, guid: 2de446248f9c47c4c8da5a7ffa19a23f, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Voc\xEA precisar\xE1 derrot\xE1-lo para continuar seguindo em frente."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Mas como eu vou derrot\xE1-lo? Eu mal consegue me defender sozinho."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Voc\xEA n\xE3o se lembra que eu sua guia? Eu disse que ia te ajudar!"
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "O monstro a sua frente \xE9 o Medo, ele vai tentar te amendrontar
+    speechTxt: "O monstro a sua frente \xE9 o Medo, ele vai tentar te amedrontar
       usando seus medos contra voc\xEA."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Quando voc\xEA encontrar um monstro e entrar em combate com ele,
-      aperte a tecla de ESPA\xC7O repetidamente at\xE9 encher a barra, no qual far\xE1
-      o inimigo perder vida."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Se voc\xEA deixar sua barra diminuir, ser\xE1 voc\xEA que perder\xE1
-      vida, no qual resultar\xE1 em GameOver."
+    audioClip: {fileID: 8300000, guid: c17b2508d0d5004468fdfd2283329ec4, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Lux, eu n\xE3o acho que vou conseguir. Eu n\xE3o sou forte o suficiente
       para enfrentar estas coisas."
+    audioClip: {fileID: 8300000, guid: c4f5c8e9c881f3a49ba75528be9c57d5, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "N\xE3o diga isso, Blue! \xC8 isso que estes monstros querem, que
+    speechTxt: "N\xE3o diga isso, Blue! \xC9 isso que estes monstros querem, que
       voc\xEA sinta impotente e sem esperan\xE7as."
+    audioClip: {fileID: 8300000, guid: 1d6a54bb86bf6ce46b0aeaa302dca323, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Voc\xEA \xE9 mais forte do que pensa, eu sinto isso. Acredite em
       seu potencial, porque eu acredito."
+    audioClip: {fileID: 8300000, guid: cc816d1474be0464bafa3ac69a386b09, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: ...
+    audioClip: {fileID: 0}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: Obrigado, Lux. Isso significa muito pra mim.
+    audioClip: {fileID: 8300000, guid: dd6e84c106cb1664d99915ac407d8c5e, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "\xC8 disso que estou falando, perseveran\xE7a."
+    speechTxt: Fico feliz em ajudar.
+    audioClip: {fileID: 8300000, guid: 672c2dfb4a42f594fba1c0831f9b4758, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Vamos l\xE1! Siga em frente e sem medo!"
+    audioClip: {fileID: 8300000, guid: d0d7b7430e06f174c867cf77a561d2f9, type: 3}
   npcName: Lux
   playerLayer:
     serializedVersion: 2
@@ -32646,6 +33079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1291361062}
   - component: {fileID: 1291361063}
+  - component: {fileID: 1291361064}
   m_Layer: 0
   m_Name: Dialogue Control
   m_TagString: Untagged
@@ -32684,7 +33118,104 @@ MonoBehaviour:
   profile: {fileID: 787455096}
   speechText: {fileID: 905484097}
   npcNameText: {fileID: 1945670041}
+  audioSource: {fileID: 1291361064}
   typingSpeed: 0
+--- !u!82 &1291361064
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291361061}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1292683622
 GameObject:
   m_ObjectHideFlags: 0
@@ -32817,179 +33348,69 @@ MonoBehaviour:
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: Parece que chegarmos no final da caverna.
+    audioClip: {fileID: 8300000, guid: 9294679dcda1f9840bdfd07161a1af58, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Depois desta porta, n\xF3s iremos para outra \xE1rea do subterr\xE2neo,
-      mas n\xE3o que dizer que estaremos livres das amea\xE7as presentes no local."
+      mas n\xE3o quer dizer que estaremos livres das amea\xE7as presentes no local."
+    audioClip: {fileID: 8300000, guid: bb07f49f6aebe124e8a3aa5fe2c3ea15, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Voc\xEA ir\xE1 encontrar dificuldades ao decorrer do percurso, ent\xE3o
       tome bastante cuidado."
+    audioClip: {fileID: 8300000, guid: c9c36fa3ff1ef564381908878a4b8c16, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Voc\xEA realmente conhece este lugar, n\xE3o \xE9, Lux?"
+    audioClip: {fileID: 8300000, guid: 59c8cfc96ab6fde4fbb3874955a0ef22, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Mas \xE9 claro! Depois de ficar muito tempo tentando purificar este
       local, acabei memorizando todos os seus caminhos poss\xEDveis."
+    audioClip: {fileID: 8300000, guid: 02345e8b3d9d77546beadfccc2d1e2c1, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: Estou impressionado!
+    audioClip: {fileID: 8300000, guid: dccb950d2d2040c4fa0143be54328b08, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: He he he...
+    speechTxt: He he...
+    audioClip: {fileID: 8300000, guid: e67499e112fe3fc4ea5958ac57da0550, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Acabei de lembrar uma coisa. Eu nunca perguntei como voc\xEA acabou
-      ficando preso aqui?"
+    speechTxt: "Mas falando s\xE9rio agora, ainda h\xE1 muito ch\xE3o para andar."
+    audioClip: {fileID: 8300000, guid: 3daa49c279f385f4aabb91349a9e4931, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: Poderia me contar?
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "\xC9... complicado."
+    speechTxt: "Mesmo que voc\xEA percorra em uma estrada longa e cheia de obst\xE1culos,
+      voc\xEA poder\xE1 encontrar coisas boas pelo caminho tamb\xE9m."
+    audioClip: {fileID: 8300000, guid: e78542e128254a64189c71666ef65b48, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: Como assim?
+    speechTxt: "Acredite. Continue seguindo em frente e dar\xE1 tudo certo."
+    audioClip: {fileID: 8300000, guid: 8d19b257943fee04581eb62c2b88e938, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: ...
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Eu fugi de casa.
+    speechTxt: "Muito obrigado pelo encorajamento, Lux. Eu n\xE3o tenho ideia do
+      que eu faria sem voc\xEA."
+    audioClip: {fileID: 8300000, guid: 67f4c3bdbe83da34aba2bba395c91d60, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: ...?
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Voc\xEA fugiu de casa... por qu\xEA?"
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Pra falar a verdade, eu nem sei direito.
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "No lugar que eu vivo, todas as pessoas s\xE3o muito unidas e soci\xE1veis
-      uma com as outras."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Por\xE9m, eu n\xE3o me sentia da mesma forma que os outros."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Eu tinha muita dificuldade de fazer amizades e de expressar meus sentimentos
-      para os outros, e por causa disso, eu acabava me afastando dos outros.
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "E a sua fam\xEDlia? Eles n\xE3o ajudavam?"
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Sim, eles me ajudavam, mas...
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Toda vez que eles tentavam fazer eu me abrir, tudo o que eu fazia
-      era me isolar e me trancar no meu quarto.
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "N\xE3o me entenda mal, eu amo minha fam\xEDlia, mas..."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Por causa da minha dificuldade de confiar em outras pessoas, por
-      que eu tenho medo de n\xE3o ser suficiente pra elas, e..."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: ... e que elas acabem me odiando por ser quem eu sou.
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Chegou uma hora que eu estava t\xE3o perdido em meus pensamentos,
-      que eu decide sair de casa pela noite para tentar me acalmar."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Depois de caminhar muito, eu acabei me perdendo em uma floresta.
-      Estava t\xE3o escuro que eu nem vi que trope\xE7ei e cair em um buraco."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "E foi a\xED que acordei neste lugar e te encontrei, Lux."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: ...
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Blue... o que voc\xEA fez foi bastante imprudente."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Ao fugir de casa, voc\xEA estava fugindo da realidade em que voc\xEA
-      se encontrava pois se sentia infeliz e queria fugir dos seus problemas."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "E n\xE3o s\xF3 isso. Ao negar a ajuda das pessoas ao seu redor, voc\xEA
-      tamb\xE9m estava negando a aceita\xE7\xE3o de outros indiv\xEDduos em sua vida,
-      assim negando encontrar sua pr\xF3pria felicidade."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Estou vendo que voc\xEA tem s\xE9rios problemas de baixa autoestima
-      e que se ver como uma pessoa insuficiente com medo de ser rejeitado pelo seus
-      semelhantes."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "N\xE3o estou dizendo estas coisas para de magoar, e sim ajud\xE1-lo."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Blue... n\xE3o pense que voc\xEA \xE9 insuficiente... e muito menos
-      negue pedir ajuda para outras pessoas."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: Eu sei que pode ser assustador se sentir fraco, perdido e estar com
-      medo em algum momento de sua vida...
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Mas est\xE1 tudo bem em pedir ajuda para as pessoas que te amam e
-      se importam com voc\xEA."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Sejam familiares, amigos pr\xF3ximos, colegas... Qualquer ajuda \xE9
-      bem-vinda."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Abra o seu cora\xE7\xE3o para aqueles que voc\xEA pode confiar de
-      verdade, e ent\xE3o voc\xEA ser\xE1 grato por elas estarem ao seu lado."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Voc\xEA n\xE3o est\xE1 sozinho."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: ...
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: ...
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Isso... foi muito lindo, Lux. Nunca pensei que voc\xEA se importaria
-      tanto..."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: ...(pensativo)
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Voc\xEA tem raz\xE3o. Tudo o que voc\xEA disse pra mim foi para perceber
-      os meus erros para que eu possa resolv\xEA-los. E por isso, eu te agrade\xE7o,
-      Lux."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Aw, para. \xC9 pra isso que amigos servem, n\xE3o \xE9?"
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "\xC9... amigos."
+    speechTxt: "\xC9 pra isso que amigos servem, n\xE3o \xE9?"
+    audioClip: {fileID: 8300000, guid: a5e559cb723605e4780f97ceb3efb6bc, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Bem, o papo foi \xF3timo, mas temos que seguir em frente."
+    audioClip: {fileID: 8300000, guid: 14d5d6b0ec92d6540a2170a43c86b60e, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: Sim, temos.
+    audioClip: {fileID: 8300000, guid: 3b5c708406b40ef46a63d01d8d2aaa43, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: ... e Blue!
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "esta \xE9 a sua jornada. Voc\xEA \xE9 quem controla seu destino."
+    speechTxt: "... e Blue! Esta \xE9 a sua jornada. Voc\xEA \xE9 quem controla seu
+      destino."
+    audioClip: {fileID: 8300000, guid: cbb83a804c0145a46ad87ef1ac9d8dbd, type: 3}
   npcName: Lux
   playerLayer:
     serializedVersion: 2
@@ -33169,6 +33590,90 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1474097818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474097819}
+  - component: {fileID: 1474097820}
+  m_Layer: 0
+  m_Name: Dica_final
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474097819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474097818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 76.66, y: -5.32, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1474097820
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474097818}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: debacb8f3e192c94ab914dc5c1b2697b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1487847300
 GameObject:
   m_ObjectHideFlags: 0
@@ -33578,7 +34083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553642733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50.45, y: -23.5, z: 0}
+  m_LocalPosition: {x: 65.72, y: 9.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33626,7 +34131,7 @@ MonoBehaviour:
   controller: {fileID: 1487847301}
   sprite: {fileID: 21300000, guid: 5a961c512920a6647a7c27cd7f66abe7, type: 3}
   vidaInimigo: 3
-  barraVelocidade: 3
+  barraVelocidade: 1
 --- !u!1 &1555905635
 GameObject:
   m_ObjectHideFlags: 0
@@ -33952,7 +34457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585162899}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.06, y: -33.39, z: -82.96053}
+  m_LocalPosition: {x: 2.1, y: -0.38, z: -82.96053}
   m_LocalScale: {x: 1.470884, y: 1.6850297, z: 1.1326}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33975,92 +34480,72 @@ MonoBehaviour:
   speechTxt:
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Tenha cuidado, h\xE1 um inimigo a sua frente! "
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Voc\xEA precisar\xE1 derrot\xE1-lo para continuar seguindo em frente."
+    speechTxt: "Tenha cuidado, h\xE1 um inimigo a sua frente! Voc\xEA precisar\xE1
+      derrot\xE1-lo para continuar seguindo em frente. "
+    audioClip: {fileID: 8300000, guid: 2de446248f9c47c4c8da5a7ffa19a23f, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: Quem eu vou enfrentar?
+    audioClip: {fileID: 8300000, guid: 3bd700e1c988cf643a7dd216352ddd58, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Este monstro \xE9 a Criatura Ansiosa. Ela tem uma apar\xEAncia suja
       e decr\xE9pita e parece que estar sempre com dor."
+    audioClip: {fileID: 8300000, guid: f1b2cbc3d04037e44936a5f20bd8ec8e, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: Este monstro pode trazer sintomas de ansiedade para qualquer um que
       esteja por perto.
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Quando voc\xEA encontrar um monstro e entrar em combate com ele,
-      aperte a tecla de ESPA\xC7O repetidamente at\xE9 encher a barra, no qual far\xE1
-      o inimigo perder vida."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Se voc\xEA deixar sua barra diminuir, ser\xE1 voc\xEA que perder\xE1
-      vida, no qual resultar\xE1 em GameOver."
+    audioClip: {fileID: 8300000, guid: 6eaa6df821e1e0649943a0bac802709d, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Lux, o que s\xE3o estes monstros? Por que parece que eles me conhecem?"
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Antes de voc\xEA chegar aqui, estes monstros n\xE3o tinham forma
-      f\xEDsica."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Com a sua chegada a este local, a energia maligna do lugar deve ter
-      entrado em contato com a sua mente, dando uma forma f\xEDsica aos monstros."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Blue, estes monstros existem porque eles s\xE3o parte de voc\xEA.
-      Eles representam suas inseguran\xE7as e medos."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "E \xE9 por isso que voc\xEA precisa enfrent\xE1-los. Voc\xEA \xE9
-      o \xFAnico que pode."
+    speechTxt: "Eu n\xE3o estou gostando desta situa\xE7\xE3o, Lux. Isso tudo parece..."
+    audioClip: {fileID: 8300000, guid: 6e64eeb8ae77ed048b9c960db2a45a79, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Lux, isso... isso \xE9 muita coisa pra..."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Eu... eu n\xE3o me sinto bem(respira\xE7\xE3o ofegante)..."
+    speechTxt: "Eu... eu n\xE3o me sinto bem neste lugar..."
+    audioClip: {fileID: 8300000, guid: 7fcad0986e1c3b449b8600e8f1605d93, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "T\xE1 tudo bem, Blue. Eu estou aqui."
+    audioClip: {fileID: 8300000, guid: c372d5fe076528544a133d146a8c4bb0, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Eu... n\xE3o consigo respirar(ansioso)... Eu acho que vou desmaiar..."
+    speechTxt: "Eu... eu n\xE3o consigo respirar... Eu quero sair daqui..."
+    audioClip: {fileID: 8300000, guid: 07d4094438f863347a3604ac9b7bdc98, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: Respire fundo, Blue. Tenha calma e respire fundo.
+    audioClip: {fileID: 8300000, guid: d892646d16d985d42b69564b113bf9a3, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: (Respira)... (Solta)
+    audioClip: {fileID: 0}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: Isso mesmo. Como se sente?
+    audioClip: {fileID: 8300000, guid: 82204914f7f7727439ce3834d77be7e9, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: Eu... eu me sinto um pouco melhor.
+    audioClip: {fileID: 8300000, guid: 0e7fc6bd58c540040afe6b7e676d1225, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Que bom, Blue. Fiquei muito preocupada que voc\xEA tivesse cedido
       \xE0 energia maligna."
+    audioClip: {fileID: 8300000, guid: 5d982f14e9880a14a8dc73502a9232f6, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: Consegue continuar?
+    audioClip: {fileID: 8300000, guid: ba10cdaceca96344db422476367c773b, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Sim, eu consigo.
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: Muito obrigado, Lux.
+    speechTxt: Sim, eu consigo. Muito obrigado, Lux.
+    audioClip: {fileID: 8300000, guid: cca70dceb2e9ff944b5f3d5a3257e30b, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: Disponha.
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "E lembre-se... Tenha calma e d\xEA o seu melhor."
+    speechTxt: "Disponha. E lembre-se... Tenha calma e d\xEA o seu melhor."
+    audioClip: {fileID: 8300000, guid: c97c910c233ebbe4da955f6fb6cc2110, type: 3}
   npcName: Lux
   playerLayer:
     serializedVersion: 2
@@ -34265,75 +34750,68 @@ MonoBehaviour:
   speechTxt:
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Tenha cuidado, h\xE1 um inimigo a sua frente! "
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Voc\xEA precisar\xE1 derrot\xE1-lo para continuar seguindo em frente."
+    speechTxt: "Tenha cuidado, h\xE1 um inimigo a sua frente! Voc\xEA precisar\xE1
+      derrot\xE1-lo para continuar seguindo em frente."
+    audioClip: {fileID: 8300000, guid: 2de446248f9c47c4c8da5a7ffa19a23f, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Que tipo de inimigo \xE9 este?"
+    audioClip: {fileID: 8300000, guid: cdbc3ad85263c7d41a40ce31d0757cc2, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Voc\xEA enfrentar\xE1 Ghost, um monstro com apar\xEAncia de fantasma."
+    audioClip: {fileID: 8300000, guid: eaecc02733d544e4883a80004b572e7d, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: Este monstro gosta de falar coisas ruins sobre a vida, assim deixando
       as pessoas tristes e sem vontade de quererem viver.
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Quando voc\xEA encontrar um monstro e entrar em combate com ele,
-      aperte a tecla de ESPA\xC7O repetidamente at\xE9 encher a barra, no qual far\xE1
-      o inimigo perder vida."
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Se voc\xEA deixar sua barra diminuir, ser\xE1 voc\xEA que perder\xE1
-      vida, no qual resultar\xE1 em GameOver."
+    audioClip: {fileID: 8300000, guid: 7a8158ef7a1300c48b3c910492df166c, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Lux, isso n\xE3o faz sentido. Nada mais faz sentido."
-  - npcName: Blue
-    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Talvez seja melhor a gente deixar isso pra l\xE1 e encontrar outra
-      maneira de sair."
+    speechTxt: "Lux, talvez seja melhor a gente deixar isso pra l\xE1 e encontrar
+      outra maneira de sair."
+    audioClip: {fileID: 8300000, guid: a9450972687ba10468fd23dd044c0edc, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Eu n\xE3o quero ser um fardo pra voc\xEA e..."
+    audioClip: {fileID: 8300000, guid: 7fbebd7d8d63cdb4493a8baf0ee55e6c, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "N\xC3O!!! NEM TERMINE ESSA FRASE!!!"
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: "Nem venha com essa de deixar pra l\xE1. Voc\xEA n\xE3o \xE9 um fardo,
-      Blue. N\xE3o pra mim."
+    speechTxt: "Voc\xEA n\xE3o \xE9 um fardo, Blue!"
+    audioClip: {fileID: 8300000, guid: a72f2108753c3c4409ad365440f0815c, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Nunca mais pense que voc\xEA um peso para as outras pessoas, porque
       isso n\xE3o \xE9 verdade."
+    audioClip: {fileID: 8300000, guid: 01f513c177cb2f14a814c603a6429003, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: ...
-  - npcName: Lux
-    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
-    speechTxt: ...Tenha mais valor pela sua vida.
+    speechTxt: Por favor, tenha mais valor pela sua vida.
+    audioClip: {fileID: 8300000, guid: 5da8acc6681d0064a8dc8b8e68e91ce1, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: ...
+    audioClip: {fileID: 0}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Eu... eu realmente n\xE3o sei o que dizer, Lux."
+    audioClip: {fileID: 8300000, guid: 3174e450d229c8649baa40ca053f9012, type: 3}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
-    speechTxt: "Eu estava t\xE3o perdido em meus pensamentos que nem percebir que
-      voc\xEA estava me encorajando."
+    speechTxt: ...
+    audioClip: {fileID: 0}
   - npcName: Blue
     profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
     speechTxt: "Voc\xEA tem raz\xE3o. Eu preciso me valorizar mais."
+    audioClip: {fileID: 8300000, guid: 099103aa8400a144393c5492bd80ac71, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "Que bom ouvir isso. Voc\xEA est\xE1 aprendendo."
+    audioClip: {fileID: 8300000, guid: 814f0cf652710bc42a23c49113821da5, type: 3}
   - npcName: Lux
     profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
     speechTxt: "N\xE3o deixe estes monstros zombarem de voc\xEA. D\xEA o seu melhor!"
+    audioClip: {fileID: 8300000, guid: ccb3b70e29e051e41bc0726109f479cb, type: 3}
   npcName: Lux
   playerLayer:
     serializedVersion: 2
@@ -34523,6 +35001,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1755400634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755400635}
+  - component: {fileID: 1755400636}
+  m_Layer: 0
+  m_Name: combate_dica
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1755400635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755400634}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 64.61, y: 8.4, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1755400636
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755400634}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: a099bb3d46efb244a899fd8b9fd755c9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1780604672
 GameObject:
   m_ObjectHideFlags: 0
@@ -34625,8 +35187,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780604672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.55, y: 9.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 49.38, y: -24.017, z: 0}
+  m_LocalScale: {x: 1, y: 1.023, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -34673,7 +35235,7 @@ MonoBehaviour:
   controller: {fileID: 1487847301}
   sprite: {fileID: 21300000, guid: 84743998de12cb447b6f2cb100f6fa81, type: 3}
   vidaInimigo: 3
-  barraVelocidade: 1
+  barraVelocidade: 3
 --- !u!114 &1780604678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35094,6 +35656,359 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1899648487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1899648488}
+  - component: {fileID: 1899648491}
+  - component: {fileID: 1899648490}
+  - component: {fileID: 1899648489}
+  m_Layer: 0
+  m_Name: Lux (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1899648488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899648487}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.69, y: -20.64, z: -82.96053}
+  m_LocalScale: {x: 1.470884, y: 1.6850297, z: 1.1326}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 954449131}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1899648489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899648487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2797380223d7dac4fac8517584f097d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+  speechTxt:
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: Parece que chegarmos no final da caverna.
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Depois desta porta, n\xF3s iremos para outra \xE1rea do subterr\xE2neo,
+      mas n\xE3o que dizer que estaremos livres das amea\xE7as presentes no local."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Voc\xEA ir\xE1 encontrar dificuldades ao decorrer do percurso, ent\xE3o
+      tome bastante cuidado."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Voc\xEA realmente conhece este lugar, n\xE3o \xE9, Lux?"
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Mas \xE9 claro! Depois de ficar muito tempo tentando purificar este
+      local, acabei memorizando todos os seus caminhos poss\xEDveis."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Estou impressionado!
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: He he he...
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Acabei de lembrar uma coisa. Eu nunca perguntei como voc\xEA acabou
+      ficando preso aqui?"
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: Poderia me contar?
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "\xC9... complicado."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: Como assim?
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: ...
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Eu fugi de casa.
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: ...?
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Voc\xEA fugiu de casa... por qu\xEA?"
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Pra falar a verdade, eu nem sei direito.
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "No lugar que eu vivo, todas as pessoas s\xE3o muito unidas e soci\xE1veis
+      uma com as outras."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Por\xE9m, eu n\xE3o me sentia da mesma forma que os outros."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Eu tinha muita dificuldade de fazer amizades e de expressar meus sentimentos
+      para os outros, e por causa disso, eu acabava me afastando dos outros.
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "E a sua fam\xEDlia? Eles n\xE3o ajudavam?"
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Sim, eles me ajudavam, mas...
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Toda vez que eles tentavam fazer eu me abrir, tudo o que eu fazia
+      era me isolar e me trancar no meu quarto.
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "N\xE3o me entenda mal, eu amo minha fam\xEDlia, mas..."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Por causa da minha dificuldade de confiar em outras pessoas, por
+      que eu tenho medo de n\xE3o ser suficiente pra elas, e..."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: ... e que elas acabem me odiando por ser quem eu sou.
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Chegou uma hora que eu estava t\xE3o perdido em meus pensamentos,
+      que eu decide sair de casa pela noite para tentar me acalmar."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Depois de caminhar muito, eu acabei me perdendo em uma floresta.
+      Estava t\xE3o escuro que eu nem vi que trope\xE7ei e cair em um buraco."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "E foi a\xED que acordei neste lugar e te encontrei, Lux."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: ...
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Blue... o que voc\xEA fez foi bastante imprudente."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Ao fugir de casa, voc\xEA estava fugindo da realidade em que voc\xEA
+      se encontrava pois se sentia infeliz e queria fugir dos seus problemas."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "E n\xE3o s\xF3 isso. Ao negar a ajuda das pessoas ao seu redor, voc\xEA
+      tamb\xE9m estava negando a aceita\xE7\xE3o de outros indiv\xEDduos em sua vida,
+      assim negando encontrar sua pr\xF3pria felicidade."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Estou vendo que voc\xEA tem s\xE9rios problemas de baixa autoestima
+      e que se ver como uma pessoa insuficiente com medo de ser rejeitado pelo seus
+      semelhantes."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "N\xE3o estou dizendo estas coisas para de magoar, e sim ajud\xE1-lo."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Blue... n\xE3o pense que voc\xEA \xE9 insuficiente... e muito menos
+      negue pedir ajuda para outras pessoas."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: Eu sei que pode ser assustador se sentir fraco, perdido e estar com
+      medo em algum momento de sua vida...
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Mas est\xE1 tudo bem em pedir ajuda para as pessoas que te amam e
+      se importam com voc\xEA."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Sejam familiares, amigos pr\xF3ximos, colegas... Qualquer ajuda \xE9
+      bem-vinda."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Abra o seu cora\xE7\xE3o para aqueles que voc\xEA pode confiar de
+      verdade, e ent\xE3o voc\xEA ser\xE1 grato por elas estarem ao seu lado."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Voc\xEA n\xE3o est\xE1 sozinho."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: ...
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: ...
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Isso... foi muito lindo, Lux. Nunca pensei que voc\xEA se importaria
+      tanto..."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: ...(pensativo)
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "Voc\xEA tem raz\xE3o. Tudo o que voc\xEA disse pra mim foi para perceber
+      os meus erros para que eu possa resolv\xEA-los. E por isso, eu te agrade\xE7o,
+      Lux."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Aw, para. \xC9 pra isso que amigos servem, n\xE3o \xE9?"
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: "\xC9... amigos."
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "Bem, o papo foi \xF3timo, mas temos que seguir em frente."
+    audioClip: {fileID: 0}
+  - npcName: Blue
+    profile: {fileID: 21300000, guid: 80a96811753c7374ba5f65a4b75ce0fc, type: 3}
+    speechTxt: Sim, temos.
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: ... e Blue!
+    audioClip: {fileID: 0}
+  - npcName: Lux
+    profile: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+    speechTxt: "esta \xE9 a sua jornada. Voc\xEA \xE9 quem controla seu destino."
+    audioClip: {fileID: 0}
+  npcName: Lux
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  radius: 0.9
+--- !u!95 &1899648490
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899648487}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 300b640313ac4274ebeae7d7a5dcb7a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &1899648491
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899648487}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 8e039ddb945ec1146ad46c459f9b3bfa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1900210927
 GameObject:
   m_ObjectHideFlags: 0
@@ -35747,6 +36662,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994099323}
   m_CullTransparentMesh: 1
+--- !u!1 &2016332193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016332194}
+  - component: {fileID: 2016332195}
+  m_Layer: 0
+  m_Name: seta (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016332194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016332193}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9999933, w: 0.0036589284}
+  m_LocalPosition: {x: 16.32, y: -17.73, z: 0.15273036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 467461812}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.581}
+--- !u!212 &2016332195
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016332193}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f17a22c18a7b9354885ff0a4c8b60203, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2022956538
 GameObject:
   m_ObjectHideFlags: 0

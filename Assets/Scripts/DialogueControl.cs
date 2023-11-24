@@ -10,6 +10,7 @@ public class DialogueControl : MonoBehaviour
     public Image profile;
     public Text speechText;
     public Text npcNameText;
+    public AudioSource audioSource; // Adicionando componente de áudio
 
     [Header("Settings")]
     public float typingSpeed;
@@ -34,6 +35,13 @@ public class DialogueControl : MonoBehaviour
         {
             speechText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
+        }
+
+        // Reproduz o áudio associado à sentença atual
+        if (sentences[index].audioClip != null)
+        {
+            audioSource.clip = sentences[index].audioClip;
+            audioSource.Play();
         }
     }
 

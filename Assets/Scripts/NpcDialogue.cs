@@ -10,6 +10,7 @@ public class DialogueElement
     public string npcName;
     public Sprite profile;
     public string speechTxt;
+    public AudioClip audioClip;
 }
 
 public class NpcDialogue : MonoBehaviour
